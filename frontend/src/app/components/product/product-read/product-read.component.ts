@@ -20,4 +20,8 @@ export class ProductReadComponent implements OnInit {
     })
   }
 
+  deleteProduct(product: Product){
+    this.productService.delete(product)
+  }
+
 }
