@@ -9,6 +9,16 @@
       "id": 3,
       "name": "Samsung S20+",
       "price": 5359.58
+    },
+    {
+      "id": 4,
+      "name": "Lápis Preto Básico",
+      "price": 1.5
+    },
+    {
+      "name": "Panela",
+      "price": 75.5,
+      "id": 5
     }
   ]
 }

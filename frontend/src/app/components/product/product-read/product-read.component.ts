@@ -21,7 +21,11 @@ export class ProductReadComponent implements OnInit {
   }
 
   deleteProduct(product: Product){
-    this.productService.delete(product)
+    const id = product.id
+
+    if (!(id == null)){
+      this.productService.delete(id)
+    }
   }
 
 }
